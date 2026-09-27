@@ -1,0 +1,105 @@
+.card {
+  width: 100%;
+  max-width: 21.5rem;
+  background-color: #2e8c82;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1.5rem 3rem -1rem hsla(217, 54%, 4%, 0.6);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 2rem 3.5rem -1rem hsla(330, 77%, 69%, 0.15),
+    0 1.5rem 3rem -1rem hsla(329, 52%, 17%, 0.7);
+}
+.card__art {
+  position: relative;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card__art-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(309, 44%, 40%, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card__art:hover .card__art-overlay,
+.card__art:focus-within .card__art-overlay {
+  opacity: 1;
+}
+.card__title {
+  margin-top: 1.25rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.card__title:hover {
+  color: #dca852;
+}
+.card__description {
+  margin-top: 0.75rem;
+  color: #0a1f2e;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+.card__price {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: #f0e9dc;
+}
+.card__time {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #f0e9dc;
+}
+.card__divider {
+  border: none;
+  border-top: 1px solid #4e2a68;
+  margin: 1.25rem 0 1rem;
+}
+.card__creator {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__avatar {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.card__creator p {
+  color: #dca852;
+  font-weight: 300;
+}
+.card__creator-name {
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+.card__creator-name:hover {
+  color: #f3d78a;
+}
+@media (min-width: 768px) {
+  .card {
+    padding: 1.75rem;
+  }
+}
