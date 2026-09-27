@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFT Gallery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equilibrium NFT Gallery</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/card.css" />
 </head>
 <body>
-    
+    <main class="cardlist">
+        
+        <article class="card">
+            
+            <div class="card__art">
+                <img
+                    src="assets/images/image-equilibrium.jpg"
+                    alt="Equilibrium NFT artwork"
+                    class="card__art-img"
+                />
+                
+                <a href="#" class="card__art-overlay" aria-label="View full NFT">
+                    <img src="assets/images/icon-view.svg" alt="" class="card__art-icon" />
+                </a>
+            </div>
+
+            <div class="card__body">
+                <h2 class="card__title">Equilibrium #3429</h2>
+                <p class="card__description">
+                    Our Equilibrium collection promotes balance and calm.
+                </p>
+                
+                <div class="card__meta">
+                    <span class="card__price">
+                    <img src="assets/images/icon-ethereum.svg" alt="" />
+                        0.041 ETH
+                    </span>
+                    <span class="card__time">
+                        <img src="assets/images/icon-clock.svg" alt="" />
+                            3 days left
+                        </span>
+                </div>
+
+                <hr class="card__divider" />
+            
+                <div class="card__creator">
+                    <img
+                        src="assets/images/image-avatar.png"
+                        alt="Jules Wyvern avatar"
+                        class="card__avatar"
+                    />
+                    <p>Creation of <a href="#" class="card__creator-name">Jules Wyvern</a></p>
+                </div>
+            </div>
+
+        </article>
+        
+    </main>
 </body>
 </html>
