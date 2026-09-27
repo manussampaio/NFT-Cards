@@ -10,7 +10,7 @@
     box-shadow 0.25s ease;
 }
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.06);
   box-shadow:
     0 2rem 3.5rem -1rem hsla(330, 77%, 69%, 0.15),
     0 1.5rem 3rem -1rem hsla(329, 52%, 17%, 0.7);
