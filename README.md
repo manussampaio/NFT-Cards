@@ -62,5 +62,5 @@ Depois, abra o arquivo `index.html` diretamente no navegador (ou use a extensão
 
 ## Autores
 
-- Pessoa 1 — [@usuario1](https://github.com/manussampaio)
-- Pessoa 2 — [@usuario2](https://github.com/GiBarbosaa)
+- Pessoa 1 — [@manuella](https://github.com/manussampaio)
+- Pessoa 2 — [@giovana](https://github.com/GiBarbosaa)
